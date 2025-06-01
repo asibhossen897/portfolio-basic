@@ -8,6 +8,13 @@
   }
 
 /* Shared styles */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #D1D1D1;
+    margin-top: 30px;
+}
+
 .secondary-bg {
     background-color: #FFF8F3;
 }
@@ -33,6 +40,10 @@
 
 .dark-3 {
     color: #757575;
+}
+
+.dark-5 {
+    color: #D1D1D1;
 }
 
 .btn-primary {
@@ -274,4 +285,94 @@ main section {
     font-size: 20px;
     font-weight: 700;
     margin: 30px 0px 20px 0px;
+}
+
+
+/* Resume section styles */
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.resume-column {
+    margin-top: 115px;
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 30px 0px 10px 0px;   
+}
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 0px 20px 0px;   
+}
+
+.experience-description {
+    margin: 0px; 
+}
+
+.resume-download-btn {
+    margin: 50px 0px 0px 0px;
+}
+
+
+/* Footer Styles */
+footer {
+    display: flex;
+    gap: 115px;
+    margin-top: 115px;
+    padding: 130px 230px;
+    background-color: #181818;
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"] {
+    display: block;
+    height: 64px;
+    max-width: 460px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    padding: 0 20px;
+    margin: 28px 0px 24px 0px;
+}
+
+footer textarea {
+    display: block;
+    /* height: 64px; */
+    max-width: 460px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    padding: 18px 20px;
+    margin: 28px 0px 24px 0px;
+    font-family: "Open Sans", sans-serif;;
 }
